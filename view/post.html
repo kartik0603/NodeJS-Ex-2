@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog App - Post</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/view/css/dashnoard.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="postTitle"></h1>
+        <p id="postContent"></p>
+        <hr>
+        <h3>Comments</h3>
+        <div id="comments"></div>
+        <hr>
+        <h4>Add a Comment</h4>
+        <form id="commentForm">
+            <div class="form-group">
+                <textarea class="form-control" id="commentContent" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Comment</button>
+        </form>
+    </div>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
